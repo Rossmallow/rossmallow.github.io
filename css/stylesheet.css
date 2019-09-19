@@ -19,14 +19,7 @@ header {
     justify-content: center;
 }
 
-/*
 .pdfcontainer embed {
-    width: 50%;
-    height: 650px;
-}
-*/
-
-.iframe {
     width: 50%;
     height: 650px;
 }
