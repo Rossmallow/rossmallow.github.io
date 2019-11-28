@@ -9,25 +9,28 @@
     flex-direction: column;
 }
 
-header {
-    text-align: center;
-}
-
-.pdfcontainer {
+.resumeContainer {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.pdfcontainer embed {
-    width: 50%;
-    height: 650px;
+.resumeContainer iframe {
+    height: 55em;
+    width: 55em;
+    border: 0em;
+    margin-top: -5em;
+}
+
+header {
+    text-align: center;
+    margin-top: -55em;
 }
 
 .downloadLink {
     text-align: center;
 }
 
-p {
+.footer {
     text-align: center;
 }
