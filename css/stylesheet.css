@@ -13,6 +13,23 @@ header {
     text-align: center;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    width: 24em;
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 0.5em;
+    margin-left: -3.5em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .resumeContainer {
     display: flex;
     flex-direction: row;
@@ -23,7 +40,7 @@ header {
     height: 55em;
     width: 55em;
     border: 0em;
-    margin-top: -5em;
+    margin-top: -8em;
 
     /* Moves iframe back
        to disable links */
@@ -35,5 +52,6 @@ header {
 }
 
 .footer {
+    padding-top: 0.5em;
     text-align: center;
 }
