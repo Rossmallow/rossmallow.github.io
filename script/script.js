@@ -1,6 +1,7 @@
 /* script.js */
 /* Ross Nelson */
 
+/* Nav Bar */
 document.getElementById("nav").innerHTML =
     "<ul>" +
     "<li><a href='https://www.linkedin.com/in/RossNel'><img src='images/linkedin.png' alt='LinkedIn'></a></li>" +
