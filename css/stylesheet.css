@@ -9,6 +9,10 @@
     flex-direction: column;
 }
 
+header {
+    text-align: center;
+}
+
 .resumeContainer {
     display: flex;
     flex-direction: row;
@@ -20,11 +24,10 @@
     width: 55em;
     border: 0em;
     margin-top: -5em;
-}
 
-header {
-    text-align: center;
-    margin-top: -55em;
+    /* Moves iframe back
+       to disable links */
+    z-index: -1;
 }
 
 .downloadLink {
