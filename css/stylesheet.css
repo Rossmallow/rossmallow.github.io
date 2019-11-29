@@ -41,7 +41,7 @@ nav img:hover {
 
 .resumeContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -50,6 +50,7 @@ nav img:hover {
     width: 55em;
     border: 0em;
     margin-top: -8em;
+    margin-left: 5em;
 
     /* Moves iframe back
        to disable links */
@@ -57,10 +58,30 @@ nav img:hover {
 }
 
 .downloadLink {
+    padding-top: 0.5em;
     text-align: center;
 }
 
-.footer {
-    padding-top: 0.5em;
-    text-align: center;
+/* Mobile Settings */
+@media screen and (max-width: 649px) {
+    /* comes into effect for screens less than or equal to 649 pixels */
+
+    .wrapper {
+        width: 30em;
+    }
+
+    nav ul {
+        width: 20em;
+        margin-left: -2.5em;
+    }
+
+    .resumeContainer iframe {
+        height: 55em;
+        margin-top: -17em;
+        margin-left: -11.25em;
+        margin-bottom: -10em;
+        margin-right: -15em;
+        border: 0em;
+        transform: scale(0.6);
+    }
 }
