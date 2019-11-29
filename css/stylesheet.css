@@ -23,11 +23,20 @@ nav ul {
     list-style-type: none;
     text-align: center;
     padding-bottom: 0.5em;
-    margin-left: -3.5em;
+    margin-left: -3em;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+nav img {
+    height: 5em;
+    width: 5em;
+}
+
+nav img:hover {
+    transform: scale(1.5);
 }
 
 .resumeContainer {
