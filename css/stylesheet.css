@@ -74,28 +74,6 @@ nav img:hover {
 @media screen and (min-width: 641px) and (max-width: 1007px) {
     /* comes into effect for screens between 641 pixels and 1007 pixels */
 
-    html {
-        width: 21em;
-    }
-
-    .wrapper {
-        width: 20em;
-    }
-
-    nav ul {
-        width: 20em;
-        margin-left: -5.5em;
-    }
-
-    .resumeContainer iframe {
-        height: 55em;
-        margin-top: -17em;
-        margin-left: -12em;
-        margin-bottom: -10em;
-        margin-right: -15em;
-        border: 0em;
-        transform: scale(0.6);
-    }
 }
 
 /* Small Class */
