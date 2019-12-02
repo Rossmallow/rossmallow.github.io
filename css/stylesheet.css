@@ -38,6 +38,7 @@ nav ul {
 nav img {
     height: 5em;
     width: 5em;
+    margin-left: .5em;
 }
 
 nav img:hover {
@@ -47,10 +48,10 @@ nav img:hover {
 .resumeContainer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 
     margin-top: -8em;
-    margin-left: 5em;
+    margin-left: 2em;
 }
 
 .resumeContainer iframe {
@@ -65,9 +66,9 @@ nav img:hover {
 }
 
 .resumeContainer .downloadLink {
+    width: 8em;
     padding-top: 0.5em;
     text-align: center;
-    margin-right: 5em;
 }
 
 /* Medium Class */
@@ -89,25 +90,29 @@ nav img:hover {
         padding-left 1em;
     }
 
+    nav {
+        margin-top: -1.5em;
+    }
+
     nav ul {
         width: 20em;
     }
 
     .resumeContainer {
-        margin-top: -22.5em;
-        margin-left: -14.30em;
+        margin-top: -22em;
+        margin-left: -.5em;
     }
 
     .resumeContainer iframe {
-        height: 64em;
-        width: 46em;
+        height: 62.75em;
+        width: 48em;
         border: 0em;
-        transform: scale(0.455);
+        transform: scale(0.5);
     }
 
     .resumeContainer .downloadLink {
         width: 8em;
-        margin-top: -17em;
-        margin-left: 20em;
+        margin-top: -16em;
+        margin-left: .5em;
     }
 }
