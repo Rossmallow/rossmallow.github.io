@@ -1,5 +1,6 @@
 <!-- tech/contact/index.html-->
 <!-- Ross Nelson-->
+<!-- Reference: https://onextrapixel.com/creating-an-html5-responsive-ready-contact-form-with-javascript-detection/ -->
 
 <html class="gr__rossnelson_me" lang="en">
 
@@ -10,13 +11,57 @@
     <meta name="description" content="Contact Page">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noarchive, noimageindex">
-    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="../css/stylesheet.css">
     <base target="_blank" />
 </head>
 
 <body>
     <header>Contact Page</header>
     <nav id="techInternal"></nav>
+
+    <form class="contactForm" action="/" method="post">
+        <h3>Get in touch</h3>
+        <h4>Fill in the form below, and I'll get back to you as soon as I can.</h4>
+        <section>
+            <label>
+                <span>Name: (required)</span>
+                <input placeholder="Ada Lovelace" type="text" tabindex="1" required autofocus>
+            </label>
+        </section>
+        <section>
+            <label>
+                <span>Email: (required)</span>
+                <input placeholder="Ada@RossNelson.me" type="email" tabindex="2" required>
+            </label>
+        </section>
+        <section>
+            <label>
+                <span>Telephone: (optional)</span>
+                <input placeholder="(555) 628-3184" type="tel" tabindex="3">
+            </label>
+        </section>
+        <section>
+            <label>
+                <span>Website: (optional)</span>
+                <input placeholder="https://RossNelson.me" type="url" tabindex="4">
+            </label>
+        </section>
+        <section>
+            <label>
+                <span>Subject: (required)</span>
+                <input placeholder="Development Opportunity" type="text" tabindex="5" required>
+            </label>
+        </section>
+        <section>
+            <label>
+                <span>Message: (required)</span>
+                <textarea placeholder="Include all the details you can" tabindex="6" required></textarea>
+            </label>
+        </section>
+        <section>
+            <button name="submit" type="submit" id="contact-submit">Send Email</button>
+        </section>
+    </form>
 
     <script src="../scripts/script.js"></script>
 </body>
