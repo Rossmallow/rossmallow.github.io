@@ -1,4 +1,4 @@
-/* script.js */
+/* scripts/script.js */
 /* Ross Nelson */
 
 /* Nav Bar */
