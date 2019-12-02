@@ -1,6 +1,10 @@
 /* stylesheet.css */
 /* Ross Nelson */
 
+html {
+    margin: auto;
+}
+
 .wrapper {
     width: 64em;
     margin: auto;
@@ -43,36 +47,42 @@ nav img:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    margin-top: -8em;
+    margin-left: 5em;
 }
 
 .resumeContainer iframe {
     height: 55em;
     width: 55em;
     border: 0em;
-    margin-top: -8em;
-    margin-left: 5em;
 
     /* Moves iframe back
        to disable links */
     z-index: -1;
 }
 
-.downloadLink {
+.resumeContainer .downloadLink {
     padding-top: 0.5em;
     text-align: center;
+    margin-right: 5em;
 }
 
-/* Mobile Settings */
-@media screen and (max-width: 649px) {
-    /* comes into effect for screens less than or equal to 649 pixels */
+/* Medium Class */
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+    /* comes into effect for screens between 641 pixels and 1007 pixels */
+
+    html {
+        width: 21em;
+    }
 
     .wrapper {
-        width: 30em;
+        width: 20em;
     }
 
     nav ul {
         width: 20em;
-        margin-left: -2.5em;
+        margin-left: -5.5em;
     }
 
     .resumeContainer iframe {
@@ -83,5 +93,40 @@ nav img:hover {
         margin-right: -15em;
         border: 0em;
         transform: scale(0.6);
+    }
+}
+
+/* Small Class */
+@media screen and (max-width: 640px) {
+    /* comes into effect for screens less than or equal to 640 pixels */
+
+    html {
+        width: 21em;
+    }
+
+    .wrapper {
+        width: 20em;
+        padding-left 1em;
+    }
+
+    nav ul {
+        width: 20em;
+    }
+
+    .resumeContainer {
+        height: 42.5em;
+        width: 50em;
+        margin-top: -19em;
+        margin-left: -17em;
+    }
+
+    .resumeContainer iframe {
+        border: 0em;
+        transform: scale(0.5);
+    }
+
+    .resumeContainer .downloadLink {
+        margin-top: -14em;
+        margin-left: 8.5em;
     }
 }
