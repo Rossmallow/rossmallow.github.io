@@ -99,10 +99,10 @@ nav img:hover {
     }
 
     .resumeContainer iframe {
-        height: 63.5em;
-        width: 46em;
+        height: 65em;
+        width: 48em;
         border: 0em;
-        transform: scale(0.455);
+        transform: scale(0.5);
     }
 
     .resumeContainer .downloadLink {
