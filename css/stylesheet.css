@@ -89,6 +89,10 @@ nav img:hover {
         padding-left 1em;
     }
 
+    nav {
+        margin-top: -1em;
+    }
+
     nav ul {
         width: 20em;
     }
@@ -102,7 +106,7 @@ nav img:hover {
         height: 65em;
         width: 48em;
         border: 0em;
-        transform: scale(0.5);
+        transform: scale(0.55);
     }
 
     .resumeContainer .downloadLink {
