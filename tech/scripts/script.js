@@ -4,6 +4,6 @@
 /* Nav Bar */
 document.getElementById("techInternal").innerHTML =
     "<ul>" +
-    "<li>Projects</li>" +
-    "<li>Contact</li>" +
+    "<li><a href='../projects/index.html'>Projects</a></li>" +
+    "<li><a href='../contact/index.html'>Contact</a></li>" +
     "</ul>";
