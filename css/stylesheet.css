@@ -20,6 +20,7 @@ header {
 nav {
     display: flex;
     justify-content: center;
+    z-index: 0;
 }
 
 nav ul {
@@ -79,29 +80,21 @@ nav img:hover {
 
     .wrapper {
         width: 20em;
-        padding-left 1em;
     }
 
     nav ul {
         width: 20em;
-    }
-
-    .resumeContainer {
-        margin-top: -22.5em;
-        margin-left: -14.30em;
+        margin-left: -5.5em;
     }
 
     .resumeContainer iframe {
-        height: 64em;
-        width: 48em;
-        border: 0em;
-        transform: scale(0.455);
-    }
-
-    .resumeContainer .downloadLink {
-        width: 8em;
+        height: 55em;
         margin-top: -17em;
-        margin-left: 20em;
+        margin-left: -12em;
+        margin-bottom: -10em;
+        margin-right: -15em;
+        border: 0em;
+        transform: scale(0.6);
     }
 }
 
