@@ -1,6 +1,10 @@
 /* css/stylesheet.css */
 /* Ross Nelson */
 
+box-sizing:border-box;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+
 html {
     margin: auto;
 }
@@ -45,6 +49,7 @@ nav img:hover {
     transform: scale(1.5);
 }
 
+/* Index */
 .resumeContainer {
     display: flex;
     flex-direction: column;

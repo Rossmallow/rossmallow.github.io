@@ -1,6 +1,10 @@
 /* tech/css/stylesheet.css */
 /* Ross Nelson */
 
+box-sizing:border-box;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+
 html {
     margin: auto;
 }
@@ -48,6 +52,7 @@ nav ul {
     transform: scale(1.5);
 }
 
+/* Index */
 .resumeContainer {
     display: flex;
     flex-direction: column;
@@ -73,6 +78,9 @@ nav ul {
     padding-top: 0.5em;
     text-align: center;
 }
+
+\
+
 
 /* Medium Class */
 @media screen and (min-width: 641px) and (max-width: 1007px) {
@@ -101,6 +109,7 @@ nav ul {
         width: 20em;
     }
 
+    /* Index */
     .resumeContainer {
         margin-top: -22em;
         margin-left: -.5em;
