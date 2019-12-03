@@ -79,6 +79,9 @@ nav ul {
     text-align: center;
 }
 
+\
+
+
 /* Medium Class */
 @media screen and (min-width: 641px) and (max-width: 1007px) {
     /* comes into effect for screens between 641 pixels and 1007 pixels */
