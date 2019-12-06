@@ -87,6 +87,7 @@ nav img:hover {
     /* comes into effect for screens less than or equal to 640 pixels */
 
     html {
+        margin: auto;
         width: 21em;
     }
 
@@ -105,7 +106,7 @@ nav img:hover {
 
     .resumeContainer {
         margin-top: -22em;
-        margin-left: -.5em;
+        margin-right: 1.65em;
     }
 
     .resumeContainer iframe {
