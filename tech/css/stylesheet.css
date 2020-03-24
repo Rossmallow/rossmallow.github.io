@@ -1,4 +1,4 @@
-/* css/stylesheet.css */
+/* tech/css/stylesheet.css */
 /* Ross Nelson */
 
 box-sizing:border-box;
@@ -29,23 +29,26 @@ nav {
 
 nav ul {
     width: 24em;
+    margin-left: -3em;
     list-style-type: none;
     text-align: center;
-    padding-bottom: 0.5em;
-    margin-left: -3em;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-nav img {
+.techExternal ul {
+    padding-bottom: 0.5em;
+}
+
+.techExternal img {
     height: 5em;
     width: 5em;
     margin-left: .5em;
 }
 
-nav img:hover {
+.techExternal img:hover {
     transform: scale(1.5);
 }
 
@@ -76,6 +79,9 @@ nav img:hover {
     text-align: center;
 }
 
+\
+
+
 /* Medium Class */
 @media screen and (min-width: 641px) and (max-width: 1007px) {
     /* comes into effect for screens between 641 pixels and 1007 pixels */
@@ -96,17 +102,18 @@ nav img:hover {
         padding-left 1em;
     }
 
-    nav {
+    .techExternal {
         margin-top: -1.5em;
     }
 
-    nav ul {
+    .techExternal ul {
         width: 20em;
     }
 
+    /* Index */
     .resumeContainer {
         margin-top: -22em;
-        margin-right: 1.65em;
+        margin-right 1.65em;
     }
 
     .resumeContainer iframe {
