@@ -55,6 +55,31 @@ nav img:hover {
     transform: scale(1.5);
 }
 
+/* Index */
+.videoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 1em;
+}
+
+.videoContainer iframe {
+    height: 360px;
+    width: 640px;
+    padding: 0em;
+    border: 0em;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.documentList #documents {
+    list-style-type: none;
+}
 
 /* Medium Class */
 @media screen and (min-width: 641px) and (max-width: 1007px) {
@@ -82,5 +107,17 @@ nav img:hover {
 
     nav ul {
         width: 20em;
+    }
+
+    .videoContainer {
+        margin-top: -22em;
+        margin-right: 1.65em;
+    }
+
+    .videoContainer iframe {
+        height: 62.75em;
+        width: 48em;
+        border: 0em;
+        transform: scale(0.5);
     }
 }
