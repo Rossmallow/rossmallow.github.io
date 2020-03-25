@@ -10,7 +10,7 @@ html {
 }
 
 .wrapper {
-    width: 64em;
+    width: 40em;
     margin: auto;
 
     display: flex;
@@ -81,15 +81,13 @@ nav img:hover {
     align-items: center;
 }
 
-.documentList {
-    width: 30em;
-
+.resources {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-self: baseline;
 }
 
-.documentList #documents {
+.resources ul {
     list-style-type: none;
 }
 
