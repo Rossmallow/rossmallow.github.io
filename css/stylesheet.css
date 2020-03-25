@@ -39,6 +39,10 @@ nav ul {
     justify-content: space-between;
 }
 
+#headerNav {
+    margin-left: 2em;
+}
+
 nav img {
     height: 5em;
     width: 5em;
