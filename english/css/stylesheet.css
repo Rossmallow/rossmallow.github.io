@@ -81,6 +81,14 @@ nav img:hover {
     align-items: center;
 }
 
+.documentList {
+    width: 30em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .documentList #documents {
     list-style-type: none;
 }
