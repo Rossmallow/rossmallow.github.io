@@ -39,6 +39,10 @@ nav ul {
     justify-content: space-between;
 }
 
+#headerNav {
+    margin-left: 2em;
+}
+
 nav img {
     height: 5em;
     width: 5em;
@@ -97,7 +101,7 @@ nav img:hover {
     }
 
     nav {
-        margin-top: -1.5em;
+        margin-top: 0em;
     }
 
     nav ul {
@@ -105,12 +109,12 @@ nav img:hover {
     }
 
     .resumeContainer {
-        margin-top: -22em;
+        margin-top: -20em;
         margin-right: 1.65em;
     }
 
     .resumeContainer iframe {
-        height: 62.75em;
+        height: 63.5em;
         width: 48em;
         border: 0em;
         transform: scale(0.5);
@@ -118,7 +122,7 @@ nav img:hover {
 
     .resumeContainer .downloadLink {
         width: 8em;
-        margin-top: -16em;
+        margin-top: -14em;
         margin-left: .5em;
     }
 }
