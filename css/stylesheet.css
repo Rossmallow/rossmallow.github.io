@@ -27,6 +27,10 @@ nav {
     z-index: 0;
 }
 
+#links {
+    margin-top: -1.5em;
+}
+
 nav ul {
     width: 24em;
     list-style-type: none;
