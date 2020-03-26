@@ -91,6 +91,10 @@ nav img:hover {
     list-style-type: none;
 }
 
+.resources li {
+    margin-bottom: 1em;
+}
+
 /* Medium Class */
 @media screen and (min-width: 641px) and (max-width: 1007px) {
     /* comes into effect for screens between 641 pixels and 1007 pixels */
@@ -129,5 +133,9 @@ nav img:hover {
         width: 640px;
         border: 0em;
         transform: scale(0.75);
+    }
+
+    .resources li {
+        margin-bottom: 2.5em;
     }
 }
