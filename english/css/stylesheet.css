@@ -68,7 +68,7 @@ nav img:hover {
     margin-bottom: 1em;
 }
 
-.videoContainer iframe {
+.videoContainer video {
     height: 360px;
     width: 640px;
     padding: 0em;
@@ -89,6 +89,10 @@ nav img:hover {
 
 .resources ul {
     list-style-type: none;
+}
+
+.resources li {
+    margin-bottom: 1em;
 }
 
 /* Medium Class */
@@ -124,10 +128,14 @@ nav img:hover {
         margin-right: 0em;
     }
 
-    .videoContainer iframe {
+    .videoContainer video {
         height: 360px;
         width: 640px;
         border: 0em;
         transform: scale(0.75);
+    }
+
+    .resources li {
+        margin-bottom: 2.5em;
     }
 }
