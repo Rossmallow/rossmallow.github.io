@@ -68,7 +68,7 @@ nav img:hover {
     margin-bottom: 1em;
 }
 
-.videoContainer iframe {
+.videoContainer video {
     height: 360px;
     width: 640px;
     padding: 0em;
@@ -128,7 +128,7 @@ nav img:hover {
         margin-right: 0em;
     }
 
-    .videoContainer iframe {
+    .videoContainer video {
         height: 360px;
         width: 640px;
         border: 0em;
