@@ -43,6 +43,10 @@ nav ul {
     margin-left: 2em;
 }
 
+#links {
+    margin-top: -1.5em;
+}
+
 nav img {
     height: 5em;
     width: 5em;
